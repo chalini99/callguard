@@ -91,6 +91,22 @@
                 placeholder="+91XXXXXXXXXX"
             >
 
+            <!-- AUTHORIZATION GATE -->
+
+            <label class="authorization-check">
+
+                <input
+                    id="authorizeCall"
+                    type="checkbox"
+                >
+
+                I confirm that I am authorized to investigate
+                this number and understand that this action
+                may place a real phone call.
+
+            </label>
+
+
             <button
                 id="investigateButton"
                 onclick="investigateCall()"
@@ -99,6 +115,7 @@
                 🔍 Investigate Call
 
             </button>
+
 
             <div
                 id="status"
@@ -152,9 +169,11 @@
                     </span>
 
                     <strong>
+
                         <span id="riskScore">
                             —
                         </span>/100
+
                     </strong>
 
                 </div>
