@@ -220,7 +220,7 @@ Delivery and courier scams
 Government impersonation
 Technical-support scams
 Payment fraud
-Romance scams
+And others
 
 Future versions could also support larger shared scam-signature datasets and stronger cross-investigation correlation.
 ```
